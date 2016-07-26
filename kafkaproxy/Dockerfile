@@ -1,5 +1,5 @@
 # Kafka, Zookeeper and Kafka 7 proxy
-FROM spotify/kafka
+FROM mkwatson/kafka
 
 ADD kafka-0.7.2.jar kafka-0.7.2.jar
 ADD zkclient-0.1.jar zkclient-0.1.jar
